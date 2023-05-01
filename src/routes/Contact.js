@@ -1,0 +1,20 @@
+import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import HeroImg2 from '../components/HeroImg2'
+import Form from '../components/Form'
+
+const Contact = () => {
+  const heading = "CONTACT";
+  const text = "here is my contacts";
+  return (
+    <div>
+      <Navbar/>
+      <HeroImg2 heading={heading} text={text} />
+      <Form/>
+      <Footer/>
+    </div>
+  )
+}
+
+export default Contact
